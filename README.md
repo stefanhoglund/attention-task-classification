@@ -2,6 +2,7 @@
 
 An investigation into whether transformer attention patterns encode cognitive task-type information — and where in the network that signal lives. Developed as an independent research inquiry within graduate studies at Luleå University of Technology (D7054E, 2026).
 
+
 ## Key Finding
 
 Contrary to the hypothesis that later layers show more task-specific patterns, **Layer 0 features dominated task-type classification** across all four cognitive categories. Random Forest classification achieved **73.33% accuracy** (vs 25% random baseline) using attention features from GPT-2-small.
